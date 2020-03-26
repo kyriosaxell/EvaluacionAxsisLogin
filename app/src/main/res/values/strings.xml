@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">EvaluacionAxsisLogin</string>
+    <!-- Strings related to login -->
+    <string name="prompt_user">Correo Electrónico</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="prompt_password_confirma">Confirmar Contraseña</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Iniciar Sesión</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="registrate"><u>Regístrate</u></string>
+    <string name="invalid_username">No es un usuario válido</string>
+    <string name="invalid_password">L contraseña debe tener al menos 10 caracteres</string>
+    <string name="login_failed">"Falló el inicio de sesión, intenta de nuevo</string>
+    <string name="usuarios_registrados">Usuarios registrados</string>
+    <string name="registrar">REGISTRAR</string>
+    <string name="registra_user">REGISTRAR USUARIO</string>
+    <string name="registro_de_user">Registro de Usuario</string>
+</resources>

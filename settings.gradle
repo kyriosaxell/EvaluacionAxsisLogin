@@ -1,0 +1,2 @@
+rootProject.name='EvaluacionAxsisLogin'
+include ':app'
