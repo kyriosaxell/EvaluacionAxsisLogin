@@ -1,0 +1,61 @@
+package com.example.evaluacionaxsislogin.ui.usuarios
+
+import android.content.Context
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.util.Log
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.lifecycleScope
+import com.example.evaluacionaxsislogin.R
+import com.example.evaluacionaxsislogin.data.UsuarioRepository
+import com.example.evaluacionaxsislogin.data.model.Usuario
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.MainScope
+import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.launch
+
+class UsuariosTablaActivity : AppCompatActivity() {
+    private var usuarioViewModel: UsuarioViewModel? = null
+    private val context = this
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_usuarios_tabla)
+
+        //viewmodel, factory se instancian
+        val repository = UsuarioRepository(context.application)
+        val mainViewModelFactory = UsuarioViewModelFactory(repository, context.application)
+        usuarioViewModel =
+            ViewModelProvider(this, mainViewModelFactory).get(UsuarioViewModel::class.java)
+
+        usuarioViewModel!!.lista_usuarios.observe(
+            context, Observer {
+                Log.d("AXELL", "all: ${it?.size}")
+                this.getAllUsers(it)
+
+            }
+        )
+
+        lifecycleScope.launch{
+           val res = usuarioViewModel!!.allUsuarios()
+            res.start()
+
+        }
+
+    }
+
+    fun getAllUsers(usuario: List<Usuario>?) {
+        if (usuario != null) {
+            //Log.d("AXELL", "si "+ usuario.get(0).user)
+            usuario.forEach {
+                Log.d("AXELL", it.user.toString())
+            }
+
+        } else {
+            Log.d("AXELL", "no hay")
+        }
+    }
+
+}
