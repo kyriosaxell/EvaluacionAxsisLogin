@@ -19,6 +19,7 @@ import com.google.android.material.textfield.TextInputEditText
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
+import java.util.*
 import kotlin.coroutines.CoroutineContext
 
 class RegistroActivity : AppCompatActivity() {
@@ -39,7 +40,7 @@ class RegistroActivity : AppCompatActivity() {
         setContentView(R.layout.activity_registro)
         val btn_registrar = findViewById<MaterialButton>(R.id.btn_registrar)
         val edt_email = findViewById<TextInputEditText>(R.id.edt_email)
-        val edt_username = findViewById<TextInputEditText>(R.id.edt_username)
+        val edt_username = findViewById<TextInputEditText>(R.id.edtr_user)
         val edt_password = findViewById<TextInputEditText>(R.id.edt_password)
         val edt_password2 = findViewById<TextInputEditText>(R.id.edt_password2)
 
@@ -70,7 +71,7 @@ class RegistroActivity : AppCompatActivity() {
 
             val usuario = Usuario(
                 email = edt_email.text.toString(),
-                user = edt_username?.text.toString(),
+                user = edt_username.text.toString(),
                 contrasena = edt_password.text.toString(),
                 estatus = true,
                 sexo = "H"
@@ -86,17 +87,16 @@ class RegistroActivity : AppCompatActivity() {
 
         }
 
-        edt_username?.addTextChangedListener(object : TextWatcher {
+        edt_username.addTextChangedListener(object : TextWatcher {
             override fun afterTextChanged(p0: Editable?) {
+
                 Log.d("AXELL", edt_username.text.toString())
             }
 
             override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
-                TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
             }
 
             override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
-                TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
             }
 
         })

@@ -32,8 +32,6 @@ public final class UsuarioDao_Impl implements UsuarioDao {
 
   private final EntityInsertionAdapter<Usuario> __insertionAdapterOfUsuario;
 
-  private final Converters __converters = new Converters();
-
   private final SharedSQLiteStatement __preparedStmtOfDeleteAll;
 
   private final SharedSQLiteStatement __preparedStmtOfUpdateUser;
@@ -74,9 +72,13 @@ public final class UsuarioDao_Impl implements UsuarioDao {
         } else {
           stmt.bindString(6, value.getSexo());
         }
-        final long _tmp_1;
-        _tmp_1 = __converters.calendarToDatestamp(value.getFecha_creacion());
-        stmt.bindLong(7, _tmp_1);
+        final Long _tmp_1;
+        _tmp_1 = Converters.toTimestamp(value.getFecha_creacion());
+        if (_tmp_1 == null) {
+          stmt.bindNull(7);
+        } else {
+          stmt.bindLong(7, _tmp_1);
+        }
       }
     };
     this.__preparedStmtOfDeleteAll = new SharedSQLiteStatement(__db) {
@@ -242,9 +244,13 @@ public final class UsuarioDao_Impl implements UsuarioDao {
             final String _tmpSexo;
             _tmpSexo = _cursor.getString(_cursorIndexOfSexo);
             final Calendar _tmpFecha_creacion;
-            final long _tmp_1;
-            _tmp_1 = _cursor.getLong(_cursorIndexOfFechaCreacion);
-            _tmpFecha_creacion = __converters.datestampToCalendar(_tmp_1);
+            final Long _tmp_1;
+            if (_cursor.isNull(_cursorIndexOfFechaCreacion)) {
+              _tmp_1 = null;
+            } else {
+              _tmp_1 = _cursor.getLong(_cursorIndexOfFechaCreacion);
+            }
+            _tmpFecha_creacion = Converters.fromTimestamp(_tmp_1);
             _item = new Usuario(_tmpId,_tmpEmail,_tmpUser,_tmpContrasena,_tmpEstatus,_tmpSexo,_tmpFecha_creacion);
             _result.add(_item);
           }
@@ -297,9 +303,13 @@ public final class UsuarioDao_Impl implements UsuarioDao {
             final String _tmpSexo;
             _tmpSexo = _cursor.getString(_cursorIndexOfSexo);
             final Calendar _tmpFecha_creacion;
-            final long _tmp_1;
-            _tmp_1 = _cursor.getLong(_cursorIndexOfFechaCreacion);
-            _tmpFecha_creacion = __converters.datestampToCalendar(_tmp_1);
+            final Long _tmp_1;
+            if (_cursor.isNull(_cursorIndexOfFechaCreacion)) {
+              _tmp_1 = null;
+            } else {
+              _tmp_1 = _cursor.getLong(_cursorIndexOfFechaCreacion);
+            }
+            _tmpFecha_creacion = Converters.fromTimestamp(_tmp_1);
             _item = new Usuario(_tmpId,_tmpEmail,_tmpUser,_tmpContrasena,_tmpEstatus,_tmpSexo,_tmpFecha_creacion);
             _result.add(_item);
           }

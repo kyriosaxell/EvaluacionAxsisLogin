@@ -1567,8 +1567,8 @@ id edit_query
 id edt_email
 id edt_password
 id edt_password2
-id edt_user
 id edt_username
+id edtr_user
 id end
 id enterAlways
 id enterAlwaysCollapsed

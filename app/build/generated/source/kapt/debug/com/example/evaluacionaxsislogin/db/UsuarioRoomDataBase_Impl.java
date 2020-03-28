@@ -33,12 +33,12 @@ public final class UsuarioRoomDataBase_Impl extends UsuarioRoomDataBase {
 
   @Override
   protected SupportSQLiteOpenHelper createOpenHelper(DatabaseConfiguration configuration) {
-    final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(configuration, new RoomOpenHelper.Delegate(3) {
+    final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(configuration, new RoomOpenHelper.Delegate(4) {
       @Override
       public void createAllTables(SupportSQLiteDatabase _db) {
-        _db.execSQL("CREATE TABLE IF NOT EXISTS `tcusuarios` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `email` TEXT NOT NULL, `user` TEXT NOT NULL, `contrasena` TEXT, `estatus` INTEGER NOT NULL, `sexo` TEXT NOT NULL, `fecha_creacion` INTEGER NOT NULL)");
+        _db.execSQL("CREATE TABLE IF NOT EXISTS `tcusuarios` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `email` TEXT NOT NULL, `user` TEXT NOT NULL, `contrasena` TEXT, `estatus` INTEGER NOT NULL, `sexo` TEXT NOT NULL, `fecha_creacion` INTEGER)");
         _db.execSQL("CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)");
-        _db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'b41509f2a6fa96c3b870e939c39841d8')");
+        _db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'cf8f0777d29f68700d2bd8222b214c76')");
       }
 
       @Override
@@ -89,7 +89,7 @@ public final class UsuarioRoomDataBase_Impl extends UsuarioRoomDataBase {
         _columnsTcusuarios.put("contrasena", new TableInfo.Column("contrasena", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsTcusuarios.put("estatus", new TableInfo.Column("estatus", "INTEGER", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsTcusuarios.put("sexo", new TableInfo.Column("sexo", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
-        _columnsTcusuarios.put("fecha_creacion", new TableInfo.Column("fecha_creacion", "INTEGER", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsTcusuarios.put("fecha_creacion", new TableInfo.Column("fecha_creacion", "INTEGER", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
         final HashSet<TableInfo.ForeignKey> _foreignKeysTcusuarios = new HashSet<TableInfo.ForeignKey>(0);
         final HashSet<TableInfo.Index> _indicesTcusuarios = new HashSet<TableInfo.Index>(0);
         final TableInfo _infoTcusuarios = new TableInfo("tcusuarios", _columnsTcusuarios, _foreignKeysTcusuarios, _indicesTcusuarios);
@@ -101,7 +101,7 @@ public final class UsuarioRoomDataBase_Impl extends UsuarioRoomDataBase {
         }
         return new RoomOpenHelper.ValidationResult(true, null);
       }
-    }, "b41509f2a6fa96c3b870e939c39841d8", "c7e4a859db3d78cb1c65a1bac8ae9061");
+    }, "cf8f0777d29f68700d2bd8222b214c76", "9d405a17084233bd33b4a0906eae29df");
     final SupportSQLiteOpenHelper.Configuration _sqliteConfig = SupportSQLiteOpenHelper.Configuration.builder(configuration.context)
         .name(configuration.name)
         .callback(_openCallback)

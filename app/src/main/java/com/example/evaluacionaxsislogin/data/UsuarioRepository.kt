@@ -21,7 +21,7 @@ class UsuarioRepository(application: Application) {
         usuarioDao = db.usuarioDao()
     }
 
-    fun getAllUsers() = usuarioDao?.getAllUsuarios()
+    suspend fun getAllUsers() = usuarioDao?.getAllUsuarios()
 
     suspend fun newUsuario(usuario: Usuario) = usuarioDao?.insertarUsuario(usuario)
 

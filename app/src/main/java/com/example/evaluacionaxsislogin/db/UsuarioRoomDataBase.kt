@@ -9,9 +9,11 @@ import com.example.evaluacionaxsislogin.data.Converters
 import com.example.evaluacionaxsislogin.data.model.LoginDao
 import com.example.evaluacionaxsislogin.data.model.Usuario
 import com.example.evaluacionaxsislogin.data.model.UsuarioDao
+import com.example.evaluacionaxsislogin.util.Encryption
 
-@Database(entities = [Usuario::class], version = 3, exportSchema = false)
+
 @TypeConverters(Converters::class)
+@Database(entities = [Usuario::class], version = 4, exportSchema = false)
 abstract class UsuarioRoomDataBase : RoomDatabase() {
     abstract fun usuarioDao(): UsuarioDao
     abstract fun loginDataSource(): LoginDao

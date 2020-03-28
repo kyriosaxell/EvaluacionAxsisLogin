@@ -77,7 +77,7 @@
                 app:layout_constraintTop_toTopOf="@id/til_email">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/edt_user"
+                    android:id="@+id/edtr_user"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginStart="24dp"

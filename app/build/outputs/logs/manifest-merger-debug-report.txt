@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:2:1-27:12
 MERGED from [androidx.room:room-ktx:2.2.5] C:\Users\soadd\.gradle\caches\transforms-2\files-2.1\4689a3a98622c0fd1954f318943ee721\jetified-room-ktx-2.2.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0-alpha01] C:\Users\soadd\.gradle\caches\transforms-2\files-2.1\e4489eb77edbc4cff1cff8ff4abda3ab\jetified-lifecycle-runtime-ktx-2.3.0-alpha01\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\soadd\.gradle\caches\transforms-2\files-2.1\a1768896b6a622b39e1354a69168da0e\jetified-lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
@@ -30,7 +30,9 @@ MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\soadd\.gradle\caches\tra
 MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\soadd\.gradle\caches\transforms-2\files-2.1\e9626a52cde72a57878ada1138a21e3c\room-runtime-2.2.5\AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\soadd\.gradle\caches\transforms-2\files-2.1\b3ee6408c3681fbd24de081a3a57da20\sqlite-framework-2.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\soadd\.gradle\caches\transforms-2\files-2.1\5f4c9cd9b6e98b3cceba0470981deab3\sqlite-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] C:\Users\soadd\.gradle\caches\transforms-2\files-2.1\c3e29db393677bfcff28aa426209a09f\jetified-lifecycle-livedata-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\soadd\.gradle\caches\transforms-2\files-2.1\abccc1c353bc6ed3d84a5c7c42cea017\lifecycle-livedata-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\soadd\.gradle\caches\transforms-2\files-2.1\d75caeab24d259cf4a41c633b6c6ae2a\jetified-lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] C:\Users\soadd\.gradle\caches\transforms-2\files-2.1\8b71dc911ab533dcbe5878c2ea6b9945\jetified-lifecycle-viewmodel-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\soadd\.gradle\caches\transforms-2\files-2.1\376def708fb6281d6ba3088f080671d7\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\soadd\.gradle\caches\transforms-2\files-2.1\6ba631e2a83457d93ff6835fab260e17\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
@@ -43,25 +45,25 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\so
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\soadd\.gradle\caches\transforms-2\files-2.1\8ba1861a037181f3766850afe0160a40\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\soadd\.gradle\caches\transforms-2\files-2.1\d38c63deeca963c558fe516b1169310c\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\soadd\.gradle\caches\transforms-2\files-2.1\8e41d98c289e3706528f1d38a44ae7cf\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:3:5-47
 		INJECTED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:5:5-23:19
+ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:5:5-25:19
 MERGED from [com.google.android.material:material:1.2.0-alpha05] C:\Users\soadd\.gradle\caches\transforms-2\files-2.1\a1da01d9ae0be6d920472293949c7e45\material-1.2.0-alpha05\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.0-alpha05] C:\Users\soadd\.gradle\caches\transforms-2\files-2.1\a1da01d9ae0be6d920472293949c7e45\material-1.2.0-alpha05\AndroidManifest.xml:22:5-20
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\soadd\.gradle\caches\transforms-2\files-2.1\72f4849b83d53b2571ad8978bcb1b56e\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
@@ -91,31 +93,31 @@ MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\soadd\.g
 	android:theme
 		ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.example.evaluacionaxsislogin.ui.usuarios.RegistroActivity
-ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:12:9-128
+ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:12:9-14:77
 	android:parentActivityName
-		ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:12:64-116
+		ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:14:13-65
 	android:name
-		ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:12:19-63
+		ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:13:13-57
 activity#com.example.evaluacionaxsislogin.ui.usuarios.UsuariosTablaActivity
-ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:13:9-71
+ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:15:9-71
 	android:name
-		ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:13:19-68
+		ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:15:19-68
 activity#com.example.evaluacionaxsislogin.ui.login.LoginActivity
-ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:14:9-22:20
+ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:16:9-24:20
 	android:label
-		ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:16:13-45
+		ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:18:13-45
 	android:name
-		ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:15:13-51
+		ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:17:13-51
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:17:13-21:29
+ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml:22:27-74
 uses-sdk
 INJECTED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\soadd\AndroidStudioProjects\EvaluacionAxsisLogin\app\src\main\AndroidManifest.xml
@@ -172,8 +174,12 @@ MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\soadd\.gradle\cach
 MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\soadd\.gradle\caches\transforms-2\files-2.1\b3ee6408c3681fbd24de081a3a57da20\sqlite-framework-2.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\soadd\.gradle\caches\transforms-2\files-2.1\5f4c9cd9b6e98b3cceba0470981deab3\sqlite-2.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\soadd\.gradle\caches\transforms-2\files-2.1\5f4c9cd9b6e98b3cceba0470981deab3\sqlite-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] C:\Users\soadd\.gradle\caches\transforms-2\files-2.1\c3e29db393677bfcff28aa426209a09f\jetified-lifecycle-livedata-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] C:\Users\soadd\.gradle\caches\transforms-2\files-2.1\c3e29db393677bfcff28aa426209a09f\jetified-lifecycle-livedata-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\soadd\.gradle\caches\transforms-2\files-2.1\abccc1c353bc6ed3d84a5c7c42cea017\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\soadd\.gradle\caches\transforms-2\files-2.1\abccc1c353bc6ed3d84a5c7c42cea017\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\soadd\.gradle\caches\transforms-2\files-2.1\d75caeab24d259cf4a41c633b6c6ae2a\jetified-lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\soadd\.gradle\caches\transforms-2\files-2.1\d75caeab24d259cf4a41c633b6c6ae2a\jetified-lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] C:\Users\soadd\.gradle\caches\transforms-2\files-2.1\8b71dc911ab533dcbe5878c2ea6b9945\jetified-lifecycle-viewmodel-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] C:\Users\soadd\.gradle\caches\transforms-2\files-2.1\8b71dc911ab533dcbe5878c2ea6b9945\jetified-lifecycle-viewmodel-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\soadd\.gradle\caches\transforms-2\files-2.1\376def708fb6281d6ba3088f080671d7\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
